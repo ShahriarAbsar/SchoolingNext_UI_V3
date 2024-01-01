@@ -1,0 +1,338 @@
+
+.container{
+      background: url('../../assets/background2.svg');
+      height: 150vh;
+      min-height: 140vh;
+      width: 100vw;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow-x: hidden;
+
+
+      .three{
+
+
+        .banner{
+          background: url('../../assets/programSchedule.svg');
+          position: relative;
+          height: 18rem;
+          img{
+            margin: 0;
+            width: 100vw;
+            
+          }
+          h5{
+            position: relative;
+            color: white;
+            top: 25%;
+            font-family: sketch;
+            font-size: 70px;
+           margin-top: 0rem;
+            text-align: center;
+          }
+        }
+        .signup{
+            align-items: center;
+          position: relative;
+          left: 50%;
+          transform: translate(-50%);
+              margin: 0;
+              padding: 0;
+              margin-top: 5rem;
+
+              
+                background: url("../../assets/signup24.svg");
+                height: 136px;
+                width: 608px;
+                text-align: center;
+                  
+        }
+
+        .signup:hover{
+          text-align: center;
+            background: url('../../assets/signup23.svg');
+            height: 136px;
+            width: 608px;
+            cursor: pointer;
+
+          
+        }
+            h1{
+                  font-family: sketch;
+                  color: white;
+                  font-size: 80px;
+                  margin-top: 5%;
+                  text-align: center;
+                  align-items: center;
+            }
+
+            h2{
+              position: relative;
+              text-align: center;
+              
+              
+              margin: 5rem;
+              padding: 0;
+              font-family: nato;
+              color: white;
+              font-size: 50px;
+
+            }
+
+            h3{
+              position: relative;
+              text-align: center;
+              margin: 0;
+              margin-top: -2rem;
+              padding: 0;
+              font-family: nato;
+                  color: white;
+                  font-size: 28px;
+                  font-weight: 50;
+
+            }
+
+            .box{
+              border-radius: 51px;
+                  align-items: center;
+                  background-color: #ffd54f;
+                  display: flex;
+                  font-family: sketch;
+                  position: relative;
+                  top: 65%;
+                  left: 17%;
+                  width: 1290px;
+                  height: 345px;
+                  background-color: transparent;
+                  border: 1px solid rgb(255, 255, 255);
+            }
+
+            .clock {
+              font-size: 24px;
+                  color: #333;
+                  margin: 0 auto;
+                  text-align: center;
+                }
+
+                h2{
+                  font-weight: normal;
+                  letter-spacing: .125rem;
+            
+                  // text-transform: uppercase;
+                }
+
+                li {
+                  text-align: center;
+                  color: white;
+                  display: inline-block;
+                  font-size: 1em;
+                  list-style-type: none;
+                  // padding: 1em;
+                  margin-left: 25px;
+                  padding-right: 4em;
+                  text-transform: uppercase;
+                }
+                
+                li span {
+                  
+                  display: block;
+                  font-size: 180px;
+                  color: white;
+                }
+                
+                
+                
+                @media all and (max-width: 768px) {
+                  h1 {
+                    font-size: calc(1.5rem * var(--smaller));
+                  }
+                  
+                  li {
+                    font-size: calc(1.125rem * var(--smaller));
+                  }
+                  
+                  li span {
+                    font-size: calc(3.375rem * var(--smaller));
+                  }
+                }
+      }
+
+}
+
+
+@media(max-width:450px) {
+
+
+
+  .container{
+    background: url('../../assets/images/programbg2.png');
+    height: 120vh;
+    min-height: 120vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+
+    .three{
+
+
+      .banner{
+        background: url('../../assets/images/programscheduleBG.png');
+        position: relative;
+        height: 14rem;
+        img{
+          margin: 0;
+          width: 100vw;
+          
+        }
+        h5{
+          // position: relative;
+          color: white;
+          top: 0;
+          font-family: sketch;
+          font-size: 50px;
+         padding: 0;
+         padding-top: 5%;
+         margin: 0;
+          text-align: center;
+        }
+      }
+      .signup{
+          align-items: center;
+        position: relative;
+        left: 75%;
+        transform: translate(-100%);
+        transform: translate(-50%);
+            margin: 0;
+            padding: 0;
+            margin-top: 2rem;
+
+            
+              background: url("../../assets/images/signb1.png");
+              height: 51px;
+              width: 100%;
+              background-repeat: no-repeat;
+              text-align: center;
+                
+      }
+
+      .signup:hover{
+        text-align: center;
+          background: url('../../assets/images/signb2.png');
+          background-repeat: no-repeat;
+          height: 51px;
+          width: 100%;
+          cursor: pointer;
+
+        
+      }
+          h1{
+            padding: 0;
+                font-family: sketch;
+                color: white;
+                font-size: 40px;
+                margin-top: 0%;
+                text-align: center;
+                align-items: center;
+          }
+
+          h2{
+            position: relative;
+            text-align: center;
+            
+            
+            margin: 0rem;
+            margin-top: 15%;
+            padding: 0;
+            padding-left: 7px;
+            padding-right: 7px;
+            font-family: nato;
+            color: white;
+            font-size: 32px;
+
+          }
+
+          h3{
+            position: relative;
+            text-align: center;
+            margin: 0;
+            margin-top: 15%;
+            padding: 0;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: nato;
+                color: white;
+                font-size: 20px;
+                font-weight: 50;
+
+          }
+
+          .box{
+            border-radius: 30px;
+                align-items: center;
+                background-color: #ffd54f;
+                display: flex;
+                font-family: sketch;
+                position: relative;
+                top: 65%;
+                left: 50%;
+                transform: translate(-50%);
+                width: 90vw;
+                height: 20vh;
+                background-color: transparent;
+                border: 1px solid rgb(255, 255, 255);
+                margin-bottom: 1rem;
+          }
+
+          .clock {
+            // font-size: 40px;
+                color: #333;
+                margin: 0 auto;
+                text-align: center;
+              }
+
+              h2{
+                font-weight: normal;
+                letter-spacing: .1rem;
+          
+                // text-transform: uppercase;
+              }
+
+              ul{
+                text-align: center;
+                margin: 0;
+                padding: 0;
+
+                
+              }
+
+              li {
+                margin: 15px;
+                text-align: center;
+                color: white;
+                display: inline-block;
+                font-size: 12px;
+                padding: 0%;
+                list-style-type: none;
+                // padding: 1em;
+                
+                text-transform: uppercase;
+              }
+              
+              li span {
+                display: block;
+                font-size: 50px;
+                color: white;
+              }
+              
+              
+              
+              
+    }
+
+}
+}
+
+
+  

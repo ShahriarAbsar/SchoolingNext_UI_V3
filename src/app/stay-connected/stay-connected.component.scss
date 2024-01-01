@@ -1,0 +1,387 @@
+
+
+.container{
+      position: relative;
+      top: 0px;
+      background: url("../../assets/background3.svg");
+      min-height: 115vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      overflow-x: hidden;
+      margin: 0;
+      margin-top: 0;
+
+      .five{
+            
+            h1{   
+                  text-align: center;
+                  font-family: sketch;
+                  color: white;
+                  text-align: center;
+                  font-size: 70px;
+                  margin:0;
+                  margin-left: 5rem;
+                  padding:0;
+                  padding-top: 11rem;
+            }
+            h2{
+                  text-align: center;
+                  font-family: nato;
+                  font-weight: 100;
+                  color: white;
+                  left: 27%;
+                  
+                  font-size: 28px;
+                  margin:40px;
+                  top: 22rem;
+                  padding:0;  
+            }
+
+
+            .custom-search {
+                  position: relative;
+                  top: 60%;
+                  left: 34%;
+                  width: 660px;
+                }
+                .custom-search-input {
+                  font-family: nato;
+                  font-size: 24px;
+                  height: 78px;
+                  width: 100%;
+                  border: 1px solid #ccc;
+                  border-radius: 100px;
+                  padding: 10px 100px 10px 40px; 
+                  line-height: 1;
+                  box-sizing: border-box;
+                  outline: none;
+                }
+                .custom-search-botton {
+                  height: 4rem;
+                  width: 4rem;
+                  position: absolute;
+                  right: 7px; 
+                  top: 7px;
+                  bottom: 3px;
+                  border: 0;
+                  background: #0c0c0c;
+                  color: #fff;
+                  outline: none;
+                  margin: 0;
+                  padding: 0 10px;
+                  border-radius: 100px;
+                  z-index: 2;
+
+                  
+                }
+                .custom-search-botton:hover{
+                  cursor: pointer;
+                  background-color: orangered;
+            }
+
+            .box{
+                  align-items: center;
+                  text-align: center;
+                  border-radius: 17px;
+                      align-items: center;
+                      background-color: #ffd54f;
+                      display: flex;
+                      font-family: sketch;
+                      position: relative;
+                      margin-top: 5rem;
+                      left: 15%;
+                      width: 1390px;
+                      height: 455px;
+                      background-color: transparent;
+                      border: 1px solid rgb(255, 255, 255);
+                }
+                .writings{
+                  display: flex;
+                  flex-direction: row;
+                }
+                .box img{
+                  margin-top: 60px;
+                  position: absolute;
+                  top: 5%;
+                  margin-left: 80px;
+                }
+                h3{
+                  margin-top: 85px;
+                  color: white;
+                  font-weight: 100;
+                  font-family: nato;
+                  font-size: 18px;
+                  text-align:left;
+                  align-content: flex-start;
+                  margin-left: 80px;
+                  
+                }
+
+                .logo{
+                 position: absolute;
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                  :nth-child(1){
+                        margin-top: 230px;
+                        margin-left: 100px;
+                        padding: 0;
+                  }
+                  :nth-child(2){
+                        margin-top: 230px;
+                        margin-left: 175px;
+                  }
+                  :nth-child(3){
+                        margin-top: 230px;
+                        margin-left: 250px;
+                  }
+                }
+                ul{
+                  
+                  h5{   
+                        text-align: left;
+                        
+                        margin: 0;
+                        padding: 0;
+                        margin-bottom: 20px;
+                        font-family: nato;
+                        font-size: 20px;
+                        color: white;
+                  }
+                }
+                
+                .feature{
+                  margin-left: 250px;
+                  li{
+                        font-size: 18px;
+                        font-family: nato;
+                        color: white;
+                        list-style-type: none;
+                        text-align: left;
+                        line-height: 3;
+
+                  
+                  }
+                }
+                .extra{
+                  margin-top: 63px;
+
+                  li{
+                        font-size: 18px;
+                        font-family: nato;
+                        color: white;
+                        text-align: left;
+                        line-height: 3;
+                        list-style-type: none;
+                  }
+
+                }
+                .resources{
+                  margin-left: 75px;
+                  li{
+                        font-family: nato;
+                        color: white;
+                        text-align: left;
+                        line-height: 3;
+                        list-style-type: none;  
+                  }
+                }
+      }
+}
+
+
+@media(max-width:450px) {
+
+
+      .container{
+            position: relative;
+            top: 0px;
+            background: url("../../assets/images/stayBG1.png");
+            min-height: 100vh;
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow-x: hidden;
+            margin: 0;
+            margin-top: 0;
+      
+            .five{
+                  
+                  h1{   margin: 0;
+                        padding: 0;
+                        text-align: center;
+                        font-family: sketch;
+                        color: white;
+                        text-align: center;
+                        font-size: 40px;
+                        
+                  }
+                  h2{
+                        margin: 0;
+                        padding: 0;
+                        text-align: center;
+                        font-family: nato;
+                        font-weight: 100;
+                        color: white;
+                       
+                        
+                        font-size: 14px;
+                        margin:40px;
+                        top: 22rem;
+                        padding:0;  
+                  }
+      
+      
+                  .custom-search {
+                        
+                        padding: 8%;
+                        left: 0%;
+                        transform: translate(0%);
+                        width: 660px;
+                      }
+                      .custom-search-input {
+                        font-family: nato;
+                        font-size: 24px;
+                        height: 78px;
+                        width: 50%;
+                        border: 1px solid #ccc;
+                        border-radius: 100px;
+                        padding: 10px 100px 10px 40px; 
+                        line-height: 1;
+                        box-sizing: border-box;
+                        outline: none;
+                      }
+                      .custom-search-botton {
+                        height: 4rem;
+                        width: 4rem;
+                        position: absolute;
+                        right: 7px; 
+                        top: 7px;
+                        bottom: 3px;
+                        border: 0;
+                        background: #0c0c0c;
+                        color: #fff;
+                        outline: none;
+                        margin: 0;
+                        padding: 0 10px;
+                        border-radius: 100px;
+                        z-index: 2;
+      
+                        
+                      }
+                      .custom-search-botton:hover{
+                        cursor: pointer;
+                        background-color: orangered;
+                  }
+      
+                  .box{
+                        align-items: center;
+                        text-align: center;
+                        border-radius: 17px;
+                            align-items: center;
+                            background-color: #ffd54f;
+                            display: flex;
+                            font-family: sketch;
+                            position: relative;
+                            margin-top: 5rem;
+                            left: 15%;
+                            width: 1390px;
+                            height: 455px;
+                            background-color: transparent;
+                            border: 1px solid rgb(255, 255, 255);
+                      }
+                      .writings{
+                        display: flex;
+                        flex-direction: row;
+                      }
+                      .box img{
+                        margin-top: 60px;
+                        position: absolute;
+                        top: 5%;
+                        margin-left: 80px;
+                      }
+                      h3{
+                        margin-top: 85px;
+                        color: white;
+                        font-weight: 100;
+                        font-family: nato;
+                        font-size: 18px;
+                        text-align:left;
+                        align-content: flex-start;
+                        margin-left: 80px;
+                        
+                      }
+      
+                      .logo{
+                       position: absolute;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        :nth-child(1){
+                              margin-top: 230px;
+                              margin-left: 100px;
+                              padding: 0;
+                        }
+                        :nth-child(2){
+                              margin-top: 230px;
+                              margin-left: 175px;
+                        }
+                        :nth-child(3){
+                              margin-top: 230px;
+                              margin-left: 250px;
+                        }
+                      }
+                      ul{
+                        
+                        h5{   
+                              text-align: left;
+                              
+                              margin: 0;
+                              padding: 0;
+                              margin-bottom: 20px;
+                              font-family: nato;
+                              font-size: 20px;
+                              color: white;
+                        }
+                      }
+                      
+                      .feature{
+                        margin-left: 250px;
+                        li{
+                              font-size: 18px;
+                              font-family: nato;
+                              color: white;
+                              list-style-type: none;
+                              text-align: left;
+                              line-height: 3;
+      
+                        
+                        }
+                      }
+                      .extra{
+                        margin-top: 63px;
+      
+                        li{
+                              font-size: 18px;
+                              font-family: nato;
+                              color: white;
+                              text-align: left;
+                              line-height: 3;
+                              list-style-type: none;
+                        }
+      
+                      }
+                      .resources{
+                        margin-left: 75px;
+                        li{
+                              font-family: nato;
+                              color: white;
+                              text-align: left;
+                              line-height: 3;
+                              list-style-type: none;  
+                        }
+                      }
+            }
+      }    
+
+
+}

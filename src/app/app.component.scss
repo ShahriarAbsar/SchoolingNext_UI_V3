@@ -1,0 +1,166 @@
+@font-face {
+      font-family: natoSans;
+      src: url('../assets/fonts/Noto_Sans/NotoSans-Light.ttf');
+    }
+    
+    @font-face {
+      font-family: Sketch;
+      src: url('../assets/fonts/Cabin_Sketch/CabinSketch-Bold.ttf');
+    }
+    
+    @font-face {
+      font-family: nato;
+      src: url('../assets/fonts/Noto_Sans/NotoSans-Regular.ttf');
+    }
+    
+    @font-face {
+      font-family: sketch2;
+      src: url('../assets/fonts/sketchzone/Sketchzone.otf');
+    }
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      
+     
+    }
+    
+    .header {
+      margin: 0;
+      position: fixed;
+      z-index: 1;
+      background-color: #5948E6;
+      height: 100px;
+      width: 100vw;
+      z-index: 5;
+    
+      nav {
+        display: flex;
+        align-items: center;
+    
+        img {
+          height: 63px;
+          width: 150px;
+          margin-top: 18px;
+          margin-left: 315px;
+          margin-right: 151pxpx; 
+        }
+    
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-between;
+          margin-left: 5.3%;
+    
+          li {
+                text-wrap: nowrap;
+                font-family: natoSans;
+          
+                font-size: 18px;
+                margin-top: 33px;
+                color: white;
+                margin-left: 74px;
+            margin-right: 0px; /* Adjust the margin as needed */
+            cursor: pointer;
+          }
+    
+          .hover-underline-animation {
+            display: inline-block;
+            position: relative;
+            color: #fafbfc;
+          }
+          
+          .hover-underline-animation:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #fdfdfd;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+          }
+          
+          .hover-underline-animation:hover:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+          }
+    
+          .button-container {
+      position: relative;
+    }
+    
+    .button {
+      font-family: natoSans;
+          
+      font-size: 18px;
+      margin-top: 1.4rem;
+      margin-left: 100%;
+      background-color: #F04C23;
+      color: #fffdfd;
+      border: none;
+      padding: 10px 50px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      border-radius: 20px;
+      transition: background-color 0.3s ease;
+      position: relative;
+      z-index: 1;
+    }
+    
+    .hover-button {
+      margin-left: 100%;
+      position: absolute;
+      top: 70%;
+      left: 100%;
+      transform: translate(-100%, -50%);
+      background-color: #6BC06C;
+      color: #fff;
+      border: none;
+      width: 2.6rem;
+      height: 2.5rem;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      z-index: 0;
+    }
+    
+    .button-container .hover-button {
+      transform: translate(-100%, -50%);
+    }
+    
+    .button-container:hover .button {
+      background-color: #F04C23;
+    }
+    
+    .button-container:hover .hover-button {
+      transform: translate(0, -50%);
+    }
+    
+    .button-container:hover .hover-button:hover {
+      background-color: #6BC06C;
+      transform: translate(10px, -50%); /* Adjust the distance you want the button to slide out */
+    }
+    
+    
+        }
+        
+      }
+    }
+    
+
+    @media(max-width:450px) {
+      .header{
+        visibility: hidden;
+      }
+    }

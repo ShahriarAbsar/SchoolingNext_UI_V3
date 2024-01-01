@@ -1,0 +1,37 @@
+.container{
+      background: url("../../assets/background4.svg");
+      height: 120vh;
+      margin-top: -5px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      h1{
+            font-family: sketch;
+            font-weight: 1000;
+            color: white;
+            font-size: 128px;
+            margin: 0;
+            padding: 0;
+            padding-top: 13rem;
+            text-align: center;
+      }
+}
+
+@media(max-width:450px) {
+      .container{
+            background: url("../../assets/images/bg3.png");
+            height: 70vh;
+            margin-top: -5px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            h1{
+                  font-family: sketch;
+                  font-weight: 1000;
+                  color: white;
+                  font-size: 50px;
+                  margin: 0;
+                  padding: 0;
+                  padding-top: 30%;
+                  text-align: center;
+            }
+}
+}

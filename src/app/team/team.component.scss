@@ -1,0 +1,244 @@
+.container{
+   background: url("../../assets/background.svg");
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 100vw;
+      
+      position: relative;
+
+      
+            .overlay {
+                  position:absolute;
+                  top:0;
+                  left:38%;
+                  z-index:1;
+                  
+
+                  h1{
+                        text-align: center;
+                        font-size: 120px;
+                        font-family: sketch;
+                        color: white;
+                        font-weight: 500;
+                  }
+              }
+      
+
+      .image{
+            img{
+              position: absolute;
+                  top: 50%;
+                  left: 5%;
+                  z-index: 3;
+   
+            }
+            .source{
+                  position: absolute;
+                  top: 60%;
+                  left: 12%;
+                  background: rgba(0, 255, 128, 0);
+                  padding: 10px;
+                  height:15rem;
+                  width:10rem;
+                  border-radius:100%;
+                  z-index: 3;
+                  
+                  
+               }
+               .target{
+                  background: url('../../assets/golla1.svg');
+                  background-repeat: no-repeat;
+                  position: absolute;
+                  top: 26%;
+                  left: 1%;
+                  height: 539px;
+                  width: 539px;
+                  // border-radius: 50%;
+                  display: none;
+                  // background: #F04C23;
+                  padding: 20px;
+                  
+                  
+               }
+               .source:hover + .target{
+                  display: block;
+                  
+                  
+               }
+
+               //2
+               .source2{
+                  position: absolute;
+                  top: 57%;
+                  left: 28%;
+                  background: rgba(255, 230, 0, 0);
+                  padding: 10px;
+                  height:18rem;
+                  width:13rem;
+                  border-radius:100%;
+                  z-index: 3;
+                  
+               }
+               .target2{
+                  background: url('../../assets/golla2.svg');
+                  background-repeat: no-repeat;
+                  height: 539px;
+                  width: 539px;
+                  // border-radius: 50%;
+                  position: absolute;
+                  top: 20%;
+                  left: 18%;
+                  display: none;
+                  // background: #F04C23;
+                  padding: 20px;
+                  transform: rotate(0deg);
+                  
+               }
+              .source2:hover + .target2{
+                  display: block;
+               }
+
+               //3
+
+               .source3{
+                  position: absolute;
+                  top: 56%;
+                  left: 43%;
+                  background: rgba(0, 17, 255, 0);
+                  padding: 10px;
+                  height:15rem;
+                  width:12rem;
+                  border-radius:100%;
+                  z-index: 3;
+                  
+               }
+               .target3{
+                  background: url('../../assets/golla3.svg');
+                  background-repeat: no-repeat;
+                  height: 500px;
+                  width: 500px;
+                  // border-radius: 50%;
+                  position: absolute;
+                  top: 22%;
+                  left: 36.5%;
+                  display: none;
+                  // background: #F04C23;
+                  padding: 20px;
+                  
+               }
+               .source3:hover + .target3{
+                  display: block;
+               }
+
+
+               //4
+
+               .source4{
+                  height: 20rem;
+                  width: 20rem;
+                  border-radius: 50%;
+                  position: absolute;
+                  top: 60%;
+                  left: 62%;
+                  background: rgba(255, 0, 106, 0);
+                  padding: 10px;
+                  height:15rem;
+                  width:10rem;
+                  border-radius:100%;
+                  z-index: 3;
+                  
+               }
+               .target4{
+                  background: url('../../assets/golla4.svg');
+                  background-repeat: no-repeat;
+                  height: 539px;
+                  width: 539px;
+                  border-radius: 50%;
+                  position: absolute;
+                  top: 23%;
+                  left: 53%;
+                  display: none;
+                  // background: #F04C23;
+                  padding: 20px;
+                  
+               }
+               .source4:hover + .target4{
+                  display: block;
+               }
+
+               //5
+
+               .source5{
+                  position: absolute;
+                  top: 60%;
+                  left: 79%;
+                  background: rgba(255, 0, 242, 0);
+                  padding: 10px;
+                  height:15rem;
+                  width:13rem;
+                  border-radius:100%;
+                  z-index: 3;
+                  
+               }
+               .target5{
+                  background: url('../../assets/golla5.svg');
+                  background-repeat: no-repeat;
+                  height: 539px;
+                  width: 539px;
+                  // border-radius: 50%;
+                  position: absolute;
+                  top: 22%;
+                  left: 70%;
+                  display: none;
+                  
+                  padding: 20px;
+                  
+               }
+               .source5:hover + .target5{
+                  display: block;
+               }
+            
+      }
+}
+
+
+
+@media(max-width:450px) {
+
+
+   .container{
+      margin: 0;
+      padding: 0;
+      
+      height: 120vh;
+      width: 100vw;
+      position: relative;
+
+      
+            .overlay {
+                  position:absolute;
+                  top:0;
+                  left:38%;
+                  z-index:1;
+                  
+
+                  h1{
+                        text-align: center;
+                        font-size: 40px;
+                        font-family: sketch;
+                        color: white;
+                        font-weight: 500;
+                  }
+              }
+      
+
+      .image{
+            display: none;
+      }
+}
+
+
+
+
+}
