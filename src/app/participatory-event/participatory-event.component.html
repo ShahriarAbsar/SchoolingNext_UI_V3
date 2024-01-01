@@ -5,7 +5,7 @@
       <div id="txt1" [ngClass]="{'txt': true, 'slide-down': istxt1Visible, 'show': istxt1Visible, 'hidden': !istxt1Visible}">
         <h2>THE ONE BOX CHALLENGE</h2>
       </div>
-      <h3>Creative thinking inter-school <br> competition for students</h3>
+      
       <div id="txt2" [ngClass]="{'txt': true, 'slide-down': istxt2Visible, 'show': istxt2Visible, 'hidden': !istxt2Visible}">
         <h2>THE SCHOOLING <br> AWARDS</h2>
       </div>
@@ -17,10 +17,11 @@
       <div id="box2" [ngClass]="{'box': true, 'show': isBox2Visible, 'hidden': !isBox2Visible}"></div>
     </div>
   </section>
+  <h3>Creative thinking inter-school <br> competition for students</h3>
   <div class="button-container">
-    <div class="sign">
-      <img src="../../assets/signup3.svg" alt="">
-    </div>
+    <button class="sign">
+      <!-- <img src="../../assets/signup3.svg" alt=""> -->
+    </button>
     <button [class.rotated]="isRotated" class="centered-button" (click)="toggleImageMovement()"></button>
 
     
